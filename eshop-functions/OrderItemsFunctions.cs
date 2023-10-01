@@ -52,6 +52,7 @@ namespace eshop_functions
             return new OkObjectResult(responseMessage);
         }
 
+
         public class ItemDto
         {
             public string itemId { get; set; }

@@ -3,6 +3,8 @@
     "Values": {
         "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=eshopstoragefunc;AccountKey=12345;EndpointSuffix=core.windows.net",
         "ContainerName": "file-upload", // Container name
-        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "ServiceBusConnectionString": "Endpoint=sb://"
+
     }
 }
